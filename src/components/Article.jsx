@@ -13,7 +13,14 @@ const Article = () => {
 
             return (
               <div key={id}>
-                <img src={img} alt="" className="w-[100%] rounded-md" />
+                <img
+                  src={img}
+                  alt=""
+                  className="w-[100%] rounded-md"
+                  data-aos="flip-right"
+                  data-aos-offset="400"
+                  data-aos-delay="300"
+                />
 
                 <div className="mt-5">
                   <p className="text-slate-400 mb-2"> {dar} </p>

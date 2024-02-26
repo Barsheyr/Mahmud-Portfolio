@@ -12,7 +12,12 @@ const Hero = () => {
     <div className="align-group">
       <div className="flex lg:flex-row flex-col-reverse items-center justify-between gap-10 mt-16">
         <div className="">
-          <h1 className="lg:text-6xl text-4xl tracking-wide font-semibold">
+          <h1
+            className="lg:text-6xl text-4xl tracking-wide font-semibold"
+            data-aos="fade-right"
+            data-aos-offset="400"
+            data-aos-delay="300"
+          >
             I am a UX designer <span className="text-blue-300"> creating </span>
             meaningful digital
             <span className="text-blue-300"> experiences. </span>

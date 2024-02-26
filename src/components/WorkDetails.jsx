@@ -10,7 +10,10 @@ const WorkDetails = ({ workData }) => {
         <img
           src={img}
           alt=""
-          className="rounded-2xl shadow-md group-hover:scale-110 transition duration-300 w-[80%] h-[30vh]"
+          className="rounded-2xl shadow-md group-hover:scale-110 transition duration-300 w-full h-[30vh]"
+          data-aos="zoom-in"
+          data-aos-offset="400"
+          data-aos-delay="300"
         />
       </Link>
 

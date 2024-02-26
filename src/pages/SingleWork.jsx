@@ -100,7 +100,10 @@ const SingleWork = () => {
 
       <div className="flex flex-row items-center justify-center py-10 gap-5">
         <Link to="/workpage">
-          <button className="bg-blue-500 font-Ubuntu px-20 py-5 rounded-md text-white">
+          <button
+            type="button"
+            className="bg-blue-500 font-Ubuntu px-20 py-5 rounded-md text-white"
+          >
             Back to Works
           </button>
         </Link>
