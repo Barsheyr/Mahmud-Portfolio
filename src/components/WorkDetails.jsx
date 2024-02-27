@@ -2,11 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const WorkDetails = ({ workData }) => {
+  const handleClick = () => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  };
+
   const { id, title, text, img } = workData;
 
   return (
     <div key={id} className="group transition">
-      <Link to={`/workpage/${id}`}>
+      <Link to={`/workpage/${id}`} onClick={handleClick}>
         <img
           src={img}
           alt=""
