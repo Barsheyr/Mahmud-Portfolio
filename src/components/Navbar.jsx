@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import resume from "../assets/resume.pdf";
 
 const Navbar = () => {
   return (
@@ -10,9 +11,10 @@ const Navbar = () => {
       <NavLink to="/articlepage" className="font-semibold text-xl">
         Articles
       </NavLink>
-      <NavLink to="/articlepage" className="font-semibold text-xl">
+
+      <a href={resume} download="resume" className="font-semibold text-xl">
         CV
-      </NavLink>
+      </a>
     </nav>
   );
 };

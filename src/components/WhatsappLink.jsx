@@ -1,4 +1,5 @@
 import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const WhatsappLink = ({ phoneNumber, message }) => {
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
@@ -11,7 +12,7 @@ const WhatsappLink = ({ phoneNumber, message }) => {
       rel="noopener noreferrer"
       className="cursor-pointer font-Ubuntu lg:text-2xl text-lg"
     >
-      Whatsapp
+      <FaWhatsapp />
     </a>
   );
 };

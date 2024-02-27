@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Works = () => {
   return (
-    <section className="align-group">
+    <section className="max-w-7xl mx-auto">
       <h1
         className="lg:text-7xl text-4xl text-center font-Ubuntu font-bold uppercase"
         data-aos="fade-down"
@@ -13,7 +13,7 @@ const Works = () => {
       >
         Work I am proud of
       </h1>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-20 mt-20 px-10 lg:px-0">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-20 mt-20 px-10">
         {workDatas.map((workData) => {
           const { id, text, img } = workData;
 
@@ -29,7 +29,7 @@ const Works = () => {
                 <img
                   src={img}
                   alt=""
-                  className="rounded-2xl w-full shadow-md group-hover:scale-110 transition duration-300 h-[30vh]"
+                  className="rounded-2xl w-full shadow-md group-hover:scale-110 transition duration-300 h-[50vh]"
                 />
               </Link>
 

@@ -4,6 +4,10 @@ import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const SingleWork = () => {
+  const handleClick = () => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  };
+
   const { id } = useParams();
 
   const workData = workDatas.find((workData) => {
@@ -99,9 +103,10 @@ const SingleWork = () => {
       </div>
 
       <div className="flex flex-row items-center justify-center py-10 gap-5">
-        <Link to="/workpage">
+        <Link to={"/workpage"}>
           <button
             type="button"
+            onClick={handleClick}
             className="bg-blue-500 font-Ubuntu px-20 py-5 rounded-md text-white"
           >
             Back to Works

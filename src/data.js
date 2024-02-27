@@ -20,172 +20,18 @@ import userResearch from "./assets/User-Research.png";
 import userPersona from "./assets/User-Persona.png";
 import userPersona2 from "./assets/User-Persona-2.png";
 import empathyMap from "./assets/Empathy-Mapping.png";
+import hero1 from "./assets/mahmudui.jpg";
+// import hero2 from "./assets/mahmudui6.jpg";
+import hero3 from "./assets/mahmudui3.jpg";
 
-export const clothDatas = [
+export const herosliders = [
   {
     id: 1,
-    category: "Shoe",
-    price: "200",
-    title: "Red and White Power Airforce",
-    // img: Airforce,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, t.",
+    img: hero1,
   },
   {
-    id: 3,
-    price: "5000",
-    title: "Complete All Casual Outfit by Denim",
-    category: "Full Set",
-    // img: completesettwo,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, t.",
-  },
-
-  {
-    id: 4,
-    price: "1000",
-    title: "Brown Complete Outfit by Lauren",
-    category: "Full Set",
-    // img: completesetone,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, .",
-  },
-  {
-    id: 5,
-    price: "1200",
-    title: "Yellow Sneakers from NIKE",
-    category: "Shoe",
-    // img: yellowshoe,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, t.",
-  },
-  {
-    id: 6,
-    price: "5000",
-    title: "Complete All Casual Outfit by Hermes",
-    category: "Full Set",
-    // img: completesetthree,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, .",
-  },
-
-  {
-    id: 7,
-    price: "100",
-    title: "Black Cotton Sweats",
-    category: "Shirt",
-    // img: blacksweats,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro,edit.",
-  },
-
-  {
-    id: 8,
-    price: "500",
-    title: "Brown Cooperate shoe from Clarks",
-    category: "Shoe",
-    // img: cooperateshoe,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, dit.",
-  },
-  {
-    id: 9,
-    price: "60",
-    title: "Seiko Stainless Watch ",
-    category: "Watch",
-    // img: categoryone,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, dit.",
-  },
-  {
-    id: 10,
-    price: "100",
-    title: "Cartier branded stainless",
-    category: "Watch",
-    // img: categorytwo,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, dit.",
-  },
-  {
-    id: 11,
-    price: "30",
-    title: "Tissot Steel",
-    category: "Watch",
-    // img: categoryfive,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, dit.",
-  },
-  {
-    id: 12,
-    price: "10",
-    title: "Rayban 2.0",
-    category: "Glasses",
-    // img: spectacles1,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, dit.",
-  },
-  {
-    id: 13,
-    price: "9",
-    title: "Persol 3.0",
-    category: "Glasses",
-    // img: spectacles2,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro,edit.",
-  },
-  {
-    id: 14,
-    price: "9",
-    title: "Dolce and gabana",
-    category: "Glasses",
-    // img: spectacles3,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, dit.",
-  },
-  {
-    id: 15,
-    price: "3999",
-    title: "Timberland Fire Big Stepper",
-    category: "Shoe",
-    // img: timberland,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, dit.",
-  },
-  {
-    id: 16,
-    price: "1200",
-    title: "Nike Super Fly",
-    category: "Shoe",
-    // img: sneakers,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, dit.",
-  },
-  {
-    id: 17,
-    price: "200",
-    title: "Converse Retro Street",
-    category: "Shoe",
-    // img: convereshoe,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, dit.",
-  },
-  {
-    id: 18,
-    price: "170",
-    title: "Raulph Pleican Shirt",
-    category: "Shirt",
-    // img: whiteshirt,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, dit.",
-  },
-  {
-    id: 19,
-    price: "2000",
-    title: "All White Converse Fambi",
-    category: "Shoe",
-    // img: whiteshoe,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laudantium deleniti porro, am s.",
+    id: 2,
+    img: hero3,
   },
 ];
 

@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import WhatsappLink from "./WhatsappLink";
+import { FaWhatsapp, FaLinkedin } from "react-icons/fa";
+import { IoMailOutline } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -17,12 +19,12 @@ const Footer = () => {
           <div className="flex lg:flex-row flex-col gap-10 text-slate-100">
             <Link to="https://www.linkedin.com/in/akinbami-mahmud-815029213/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
               <p className="lg:text-xl text-lg cursor-pointer font-Ubuntu">
-                Linkedin
+                <FaLinkedin />
               </p>
             </Link>
             <Link>
               <p className="lg:text-xl text-lg cursor-pointer font-Ubuntu">
-                Mail
+                <IoMailOutline />
               </p>
             </Link>
 
