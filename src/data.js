@@ -48,14 +48,14 @@ export const workDatas = [
       "lorem ipsum dolor sit amet, consectet lorem ipsum dolor lorem ipsum dolor",
 
     problemstatement:
-      "Lorem ipsum dolor sit amet, consectet lore lorem ipsum dolor lorem ipsum dlon l Lorem ipsum dolor sit amet, consectet lore lorem ipsum dolor lorem ipsum dlon l Lorem ipsum dolor sit amet, consectet lore lorem ipsum dolor lorem ipsum dlon l Lorem ipsum dolor sit amet, consectet lore lorem ipsum dolor lorem ipsum dlon l",
+      "Morbi non consequat tortor. Integer facilisis viverra diam. Vivamus mauris metus, congue vel arcu ut, varius vehicula purus. Vivamus urna ligula, varius a leo sit amet, consequat gravida nulla. Nullam id condimen",
 
     style1: kiwistyle1,
     style2: kiwistyle2,
     style3: kiwistyle3,
     style4: kiwistyle4,
     conclusion:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi suntminus, quia aspernatur velit tempora totam deserunt neque expedita repellat odit ad libero in, ratione atque. Quidem molestias perspiciatis, suscipit consequuntur cumque expedita hic nostru quaerat ipsum ratione similique exercitationem animi delectus ipsa temporibus. Atque quos nesciunt quaerat illo dignissimos.",
+      " Lorem lat odit ad libero in, rati exercitationem animi delectus ipsa temporibus. Atque quos nesciunt quaerat illo dignissimos.",
   },
   {
     id: 2,
@@ -71,7 +71,7 @@ export const workDatas = [
     problemstatement:
       "Lorem ipsum dolor sit amet, consectet lore lorem ipsum dolor lorem ipsum dlon",
     conclusion:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi suntminus, quia aspernatur velit tempora totam deserunt neque expedita repellat odit ad libero in, ratione atque. Quidem molestias perspiciatis, suscipit consequuntur cumque expedita hic nostru quaerat ipsum ratione similique exercitationem animi delectus ipsa temporibus. Atque quos nesciunt quaerat illo dignissimos.",
+      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi pedita hic nostru quaerat ipsum ratione similique exercitationem animi delectus ipsa temporibus. Atque quos nesciunt quaerat illo dignissimos.",
     style1: aerstyleGuide,
     style2: designProcess,
     style3: kiwistyle3,
@@ -93,7 +93,7 @@ export const workDatas = [
     problemstatement:
       "Lorem ipsum dolor sit amet, consectet lore lorem ipsum dolor lorem ipsum dlon",
     conclusion:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi suntminus, quia aspernatur velit tempora totam deserunt neque expedita repellat odit ad libero in, ratione atque. Quidem molestias perspiciatis, suscipit consequuntur cumque expedita hic nostru quaerat ipsum ratione similique exercitationem animi delectus ipsa temporibus. Atque quos nesciunt quaerat illo dignissimos.",
+      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi suntminus, quia aspernatur velit tempora totam deserunt neque expedita repellatdignissimos.",
   },
   {
     id: 4,
@@ -107,7 +107,7 @@ export const workDatas = [
     problemstatement:
       "Lorem ipsum dolor sit amet, consectet lore lorem ipsum dolor lorem ipsum dlon",
     conclusion:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi suntminus, quia aspernatur velit tempora totam deserunt neque expedita repellat odit ad libero in, ratione atque. Quidem molestias perspiciatis, suscipit consequuntur cumque expedita hic nostru quaerat ipsum ratione similique exercitationem animi delectus ipsa temporibus. Atque quos nesciunt quaerat illo dignissimos.",
+      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi suntminus, quia aspernatur velit t ratione similique exercitationem animi delectus ipsa temporibus. Atque quos nesciunt quaerat illo dignissimos.",
   },
 ];
 

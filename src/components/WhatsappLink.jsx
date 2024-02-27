@@ -12,7 +12,7 @@ const WhatsappLink = ({ phoneNumber, message }) => {
       rel="noopener noreferrer"
       className="cursor-pointer font-Ubuntu lg:text-2xl text-lg"
     >
-      <FaWhatsapp />
+      <FaWhatsapp size={50} />
     </a>
   );
 };

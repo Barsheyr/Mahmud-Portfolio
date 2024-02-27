@@ -36,12 +36,12 @@ const SingleWork = () => {
     <div key={id}>
       {/* head */}
       <div className="align-group">
-        <div className="flex flex-col items-center justify-start py-10 gap-5">
+        <div className="flex flex-col items-center justify-center gap-5">
           <h1 className="text-6xl font-bold font-Ubuntu text-blue-700">
             {title}
           </h1>
 
-          <p className="text-slate-500 text-xl">
+          <p className="text-slate-500 text-xl lg:px-[20%] px-0 mt-10">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
             distinctio ipsum odio dolorem perferendis iure id mollitia aut
             aliquid a distinctio ipsum odio dolorem perferendis iure id mollitia
@@ -59,9 +59,7 @@ const SingleWork = () => {
 
       <div>
         <div className="flex flex-col gap-3 mt-20 px-5">
-          <h3 className="text-5xl font-Ubuntu text-center">
-            Problem Statement
-          </h3>
+          <h3 className="text-5xl font-Ubuntu">Problem Statement</h3>
           <p className="max-w-5xl text-slate-500 mx-auto lg:px-20 py-5 text-xl">
             {problemstatement}
           </p>
@@ -98,7 +96,7 @@ const SingleWork = () => {
         </div>
       </div>
       <div className="max-w-5xl mx-auto py-20 px-10 lg:px-0">
-        <h1 className="text-5xl font-Ubuntu text-center mb-5"> Conclusion </h1>
+        <h1 className="text-5xl font-Ubuntu mb-5"> Conclusion </h1>
         <p className="text-slate-500 text-xl">{conclusion}</p>
       </div>
 

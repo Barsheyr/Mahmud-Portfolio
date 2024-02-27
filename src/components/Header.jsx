@@ -47,7 +47,7 @@ const Header = () => {
         <div
           className={` ${
             mobileNav ? "left-0" : "-left-full"
-          } fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all bg-blue-200`}
+          } fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all bg-blue-500`}
           onClick={() => setMobileNav(!mobileNav)}
         >
           <MobileNav />

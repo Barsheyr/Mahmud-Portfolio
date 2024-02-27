@@ -19,12 +19,12 @@ const Footer = () => {
           <div className="flex lg:flex-row flex-col gap-10 text-slate-100">
             <Link to="https://www.linkedin.com/in/akinbami-mahmud-815029213/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
               <p className="lg:text-xl text-lg cursor-pointer font-Ubuntu">
-                <FaLinkedin />
+                <FaLinkedin size={50} />
               </p>
             </Link>
             <Link>
               <p className="lg:text-xl text-lg cursor-pointer font-Ubuntu">
-                <IoMailOutline />
+                <IoMailOutline size={50} />
               </p>
             </Link>
 
