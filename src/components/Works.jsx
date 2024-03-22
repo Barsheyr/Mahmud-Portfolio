@@ -8,7 +8,7 @@ const Works = () => {
   };
 
   return (
-    <section className="max-w-6xl mx-auto px-10 py-20">
+    <section className="max-w-6xl mx-auto py-20 px-20">
       <h1
         className="lg:text-6xl text-4xl text-center font-Ubuntu font-bold uppercase mb-10"
         data-aos="fade-down"
@@ -17,7 +17,8 @@ const Works = () => {
       >
         Work I am proud of
       </h1>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-20 py-10 lg:py-0 mt-20">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-20">
+        {/* <div className="flex flex-row flex-wrap items-center justify-between mt-10"> */}
         {workDatas.map((workData) => {
           const { id, text, img } = workData;
 
@@ -33,7 +34,7 @@ const Works = () => {
                 <img
                   src={img}
                   alt=""
-                  className="rounded-2xl  shadow-2xl group-hover:scale-110 transition duration-300 h-[30vh]"
+                  className="rounded-2xl  shadow-2xl group-hover:scale-110 transition duration-300 h-[30vh] w-full mt-10"
                   onClick={handleClick}
                 />
               </Link>
