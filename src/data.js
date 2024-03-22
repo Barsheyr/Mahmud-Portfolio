@@ -29,6 +29,7 @@ import project1b from "./assets/Project-1b.jpg";
 import project1new from "./assets/project1-new.png";
 import project1old from "./assets/project1-old.jpg";
 import project1c from "./assets/Project-1c.jpg";
+import project1cover from "./assets/Project1-coverpage.jpg";
 
 export const herosliders = [
   {
@@ -44,7 +45,7 @@ export const herosliders = [
 export const workDatas = [
   {
     id: 1,
-    img: project1a,
+    img: project1cover,
     image: project1a,
     image2: project1b,
     title: "Invoive generator ",

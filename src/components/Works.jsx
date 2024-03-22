@@ -3,6 +3,10 @@ import { workDatas } from "../data";
 import { Link } from "react-router-dom";
 
 const Works = () => {
+  const handleClick = () => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  };
+
   return (
     <section className="max-w-6xl mx-auto px-10 py-20">
       <h1
@@ -29,7 +33,8 @@ const Works = () => {
                 <img
                   src={img}
                   alt=""
-                  className="rounded-2xl  shadow-md group-hover:scale-110 transition duration-300 w-full"
+                  className="rounded-2xl  shadow-2xl group-hover:scale-110 transition duration-300 h-[30vh]"
+                  onClick={handleClick}
                 />
               </Link>
 
