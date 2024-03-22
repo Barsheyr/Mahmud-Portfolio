@@ -23,6 +23,12 @@ import empathyMap from "./assets/Empathy-Mapping.png";
 import hero1 from "./assets/mahmudui.jpg";
 // import hero2 from "./assets/mahmudui6.jpg";
 import hero3 from "./assets/mahmudui3.jpg";
+// real Project
+import project1a from "./assets/Project-1.png";
+import project1b from "./assets/Project-1b.jpg";
+import project1new from "./assets/project1-new.png";
+import project1old from "./assets/project1-old.jpg";
+import project1c from "./assets/Project-1c.jpg";
 
 export const herosliders = [
   {
@@ -38,9 +44,9 @@ export const herosliders = [
 export const workDatas = [
   {
     id: 1,
-    img: mahmudproject1,
-    image: kiwi1,
-    image2: kiwi2,
+    img: project1a,
+    image: project1a,
+    image2: project1b,
     title: "Invoive generator ",
     text: "Invoice generator website redesign",
     header: "Kwinkinvoice",
@@ -48,14 +54,28 @@ export const workDatas = [
       "lorem ipsum dolor sit amet, consectet lorem ipsum dolor lorem ipsum dolor",
 
     problemstatement:
-      "Morbi non consequat tortor. Integer facilisis viverra diam. Vivamus mauris metus, congue vel arcu ut, varius vehicula purus. Vivamus urna ligula, varius a leo sit amet, consequat gravida nulla. Nullam id condimen",
+      "KwikInvoice is an invoice generating web application that has been in use for a while, but its overall interface design is basic and less user friendly, leading to low user engagement and difficulties in navigating the platform. ",
 
+    projectoverview:
+      "I did a collaboration work with a group of developers and designers at the Dev and Design Bootcamp to redesign a website to give it a better user experience. ",
+
+    projectgoals:
+      "Our goal is to improve the user experience, increase user engagement, and make it easier for users to customize their invoices. The new design will also focus on improving the visual hierarchy and simplifying the user flow, making it easier for users to navigate the platform.",
+
+    neededDesign:
+      "The website was initially built with a website builder which made it hard to customizeThe visuals were not consistent.",
+
+    projectOld: project1old,
+    projectNew: project1new,
+    projectAudit: project1c,
+    role1: "UI/ UX Design",
+    role2: "User Research",
     style1: kiwistyle1,
     style2: kiwistyle2,
     style3: kiwistyle3,
     style4: kiwistyle4,
     conclusion:
-      " Lorem lat odit ad libero in, rati exercitationem animi delectus ipsa temporibus. Atque quos nesciunt quaerat illo dignissimos.",
+      "The website redesign for Kwikinvoice was a success, meeting and exceeding the objectives set at the beginning of the project. The new design helped establish the company as a trusted and reputable brand in all industry, while also improving the user experience.",
   },
   {
     id: 2,

@@ -19,15 +19,19 @@ const SingleWork = () => {
     title,
     image2,
     problemstatement,
+    projectoverview,
+    projectgoals,
+    neededDesign,
+    projectOld,
+    projectNew,
+    projectAudit,
     conclusion,
+    role1,
+    role2,
     style1,
     style2,
     style3,
     style4,
-    design1,
-    design2,
-    design3,
-    design4,
     image3,
     projectTitle,
   } = workData;
@@ -41,11 +45,8 @@ const SingleWork = () => {
             {title}
           </h1>
 
-          <p className="text-slate-500 text-xl lg:px-[20%] px-0 mt-10">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga
-            distinctio ipsum odio dolorem perferendis iure id mollitia aut
-            aliquid a distinctio ipsum odio dolorem perferendis iure id mollitia
-            aut aliquid a
+          <p className="text-slate-500 text-xl lg:px-[20%] px-0">
+            Easily generate a professional invoice for business
           </p>
         </div>
       </div>
@@ -58,41 +59,97 @@ const SingleWork = () => {
       </div>
 
       <div>
-        <div className="flex flex-col gap-3 mt-20 px-5">
-          <h3 className="text-5xl font-Ubuntu">Problem Statement</h3>
+        {/* problem statment */}
+        <div className="flex flex-col gap-3 mt-20 px-5 py-5">
+          <h3 className="text-5xl text-center font-Ubuntu">
+            Problem Statement
+          </h3>
           <p className="max-w-5xl text-slate-500 mx-auto lg:px-20 py-5 text-xl">
             {problemstatement}
           </p>
         </div>
-
-        <div className="flex flex-col mt-20">
-          <img src={image2} alt="" />
-          <p className="max-w-5xl mx-auto lg:px-20 px-10 text-slate-500 py-20 text-xl">
-            Lorem ipsum dolor siamet, consectetur adipisicing elit. Enim
-            deserunt cum error quibusdam deleniti, eaque ipsam dolorum veniam
-            possimus. Numquam hic distinctio libero similique perferendis quis
-            eum ab reiciendis qui.
+        {/* project overview */}
+        <div className="flex flex-col gap-3 mt-20 px-5 py-5">
+          <h3 className="text-5xl text-center font-Ubuntu">Problem Overview</h3>
+          <p className="max-w-5xl text-slate-500 mx-auto lg:px-20 py-5 text-xl">
+            {projectoverview}
+          </p>
+        </div>
+        {/* project goals */}
+        <div className="flex flex-col gap-3 mt-20 px-5 py-5">
+          <h3 className="text-5xl text-center font-Ubuntu">Problem Goals</h3>
+          <p className="max-w-5xl text-slate-500 mx-auto lg:px-20 py-5 text-xl">
+            {projectgoals}
+          </p>
+        </div>
+        {/* needed design */}
+        <div className="flex flex-col gap-3 mt-20 px-5 py-5">
+          <h3 className="text-5xl text-center font-Ubuntu">
+            Why was the redesign needed
+          </h3>
+          <p className="max-w-5xl text-slate-500 mx-auto lg:px-20 py-5 text-xl">
+            {neededDesign}
           </p>
         </div>
 
+        <div className="flex flex-col mt-20">
+          <h3 className="text-5xl text-center font-Ubuntu">The Design </h3>
+          <p className="max-w-5xl text-slate-500 mx-auto lg:px-20 py-5 text-xl">
+            Shown below is the side by side comparison of the landing page
+          </p>
+          <div className="flex flex-row text-center justify-center gap-10">
+            <img src={projectOld} alt="" />
+            <img src={projectNew} alt="" />
+          </div>
+        </div>
+
         <div className="max-w-5xl mx-auto py-20">
-          <h3 className="text-5xl font-Ubuntu text-center">Design Process</h3>
-          <div className="grid lg:grid-cols-2 gap-5 mt-10">
-            <img src={design1} alt="" />
-            <img src={design2} alt="" />
-            <img src={design3} alt="" />
-            <img src={design4} alt="" />
+          <h3 className="text-5xl font-Ubuntu text-center"> UX Audit </h3>
+          <p className="max-w-5xl text-slate-500 mx-auto lg:px-20 py-5 text-xl">
+            In order for us to be able to do understand the challenges users
+            face when using KwikInvoice and how best to solve these problems, we
+            carried out a UX audit. This revealed the varying perspectives of
+            users based on their experiences using KwikInvoice.
+          </p>
+          <div className="mt-10">
+            <img src={projectAudit} alt="" />
           </div>
         </div>
 
         <div className="max-w-5xl mx-auto py-20">
           <h3 className="text-5xl font-Ubuntu text-center mb-5">Style Guide</h3>
-          <div className="grid lg:grid-cols-2 gap-5">
+          <div className="space-y-10">
             <img src={style1} alt="" />
             <img src={style2} alt="" />
-            <img src={style3} alt="" />
+            <div className="py-10">
+              <h3 className="text-5xl font-Ubuntu text-center">
+                Atomic Design Principle
+              </h3>
+              <p className="max-w-5xl text-slate-500 mx-auto lg:px-20 py-5 text-xl">
+                Due to the fact that the website was a redesign, it will need
+                constant changes and iteration and as such we needed to design
+                the website in such a way, we are allowed to make as much
+                iteration as we want too, hence we designed using the atomic
+                design principle. below are the examples of buttons, icons and
+                currencies used in the design.
+              </p>
+              <img src={style3} alt="" />
+            </div>
+
             <img src={style4} alt="" />
           </div>
+        </div>
+
+        <div className="text-center">
+          <h3 className="text-5xl text-center font-Ubuntu mb-10">My Role </h3>
+          <ol>
+            <p className="text-slate-500 mx-auto lg:px-5 py-5 text-3xl">
+              1 {role1}
+            </p>
+            <p className="text-slate-500 mx-auto lg:px-5 py-5 text-3xl">
+              2 {role2}
+            </p>
+          </ol>
         </div>
       </div>
       <div className="max-w-5xl mx-auto py-20 px-10 lg:px-0">
