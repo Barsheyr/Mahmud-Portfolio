@@ -92,18 +92,18 @@ const SingleWork = () => {
           </p>
         </div>
 
-        <div className="flex flex-col mt-20">
+        <div className="flex flex-col mt-20 px-10">
           <h3 className="text-5xl text-center font-Ubuntu">The Design </h3>
           <p className="max-w-5xl text-slate-500 mx-auto lg:px-20 py-5 text-xl">
             Shown below is the side by side comparison of the landing page
           </p>
-          <div className="flex flex-row text-center justify-center gap-10">
+          <div className="flex lg:flex-row flex-col flex-wrap text-center justify-center gap-20">
             <img src={projectOld} alt="" />
             <img src={projectNew} alt="" />
           </div>
         </div>
 
-        <div className="max-w-5xl mx-auto py-20">
+        <div className="max-w-5xl mx-auto py-20 px-10">
           <h3 className="text-5xl font-Ubuntu text-center"> UX Audit </h3>
           <p className="max-w-5xl text-slate-500 mx-auto lg:px-20 py-5 text-xl">
             In order for us to be able to do understand the challenges users
@@ -116,7 +116,7 @@ const SingleWork = () => {
           </div>
         </div>
 
-        <div className="max-w-5xl mx-auto py-20">
+        <div className="max-w-5xl mx-auto py-20 px-10">
           <h3 className="text-5xl font-Ubuntu text-center mb-5">Style Guide</h3>
           <div className="space-y-10">
             <img src={style1} alt="" />
