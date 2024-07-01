@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../assets/MAHMUD-DEMILADE-AKINBAMI-cv.pdf";
 
 const AboutMe = () => {
   return (
@@ -42,7 +43,9 @@ const AboutMe = () => {
         </div>
 
         <button className="bg-blue-400 px-7 py-5 text-xl text-white mt-10">
-          Download CV
+          <a href={resume} download="resume" className="font-semibold text-xl">
+            Download CV
+          </a>
         </button>
       </div>
     </section>

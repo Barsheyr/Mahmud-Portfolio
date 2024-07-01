@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import resume from "../assets/resume.pdf";
+// import resume from "../assets/resume.pdf";
+import resume from "../assets/MAHMUD-DEMILADE-AKINBAMI-cv.pdf";
 
 const Navbar = () => {
   const handleClick = () => {
