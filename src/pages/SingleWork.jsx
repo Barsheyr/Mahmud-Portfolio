@@ -168,9 +168,18 @@ const SingleWork = () => {
           <button
             type="button"
             onClick={handleClick}
-            className="bg-blue-500 font-Ubuntu px-20 py-5 rounded-md text-white"
+            className="bg-blue-500 hover:bg-slate-300 hover:text-black font-Ubuntu px-20 py-4 rounded-md text-white"
           >
-            Back to Works
+            Back
+          </button>
+        </Link>
+        <Link to={"/workpage"}>
+          <button
+            type="button"
+            onClick={handleClick}
+            className="bg-slate-300 hover:bg-blue-500 hover:text-white font-Ubuntu px-20 py-4 rounded-md text-black"
+          >
+            Url
           </button>
         </Link>
       </div>
