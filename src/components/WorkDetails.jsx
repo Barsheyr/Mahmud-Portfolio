@@ -15,9 +15,9 @@ const WorkDetails = ({ workData }) => {
           src={img}
           alt=""
           className="rounded-2xl shadow-2xl group-hover:scale-110 transition duration-300 h-[30vh]"
-          data-aos="zoom-in"
-          data-aos-offset="400"
-          data-aos-delay="300"
+          // data-aos="zoom-down"
+          // data-aos-offset="400"
+          // data-aos-delay="300"
         />
       </Link>
 

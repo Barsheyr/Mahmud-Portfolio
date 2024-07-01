@@ -98,8 +98,14 @@ const SingleWork = () => {
             Shown below is the side by side comparison of the landing page
           </p>
           <div className="flex lg:flex-row flex-col flex-wrap text-center justify-center gap-20">
-            <img src={projectOld} alt="" />
-            <img src={projectNew} alt="" />
+            <div>
+              <p className="font-Ubuntu text-4xl py-10"> Old </p>
+              <img src={projectOld} alt="" />
+            </div>
+            <div>
+              <p className="font-Ubuntu text-4xl py-10"> New </p>
+              <img src={projectNew} alt="" />
+            </div>
           </div>
         </div>
 
