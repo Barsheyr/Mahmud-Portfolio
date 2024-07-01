@@ -32,10 +32,9 @@ const Hero = () => {
                       data-aos="fade-down"
                       data-aos-delay="500"
                     >
-                      I am a UX designer
-                      <span className="text-blue-300"> creating </span>
-                      meaningful digital
-                      <span className="text-blue-300"> experiences. </span>
+                      <span className="text-blue-300 text-sm"> Hi there! </span>
+                      I'm Mahmud "Demi" Akinbami <br /> Welcome to my creative
+                      space!
                     </h1>
                   </div>
                   <div
