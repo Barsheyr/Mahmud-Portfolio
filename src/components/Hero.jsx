@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import { EffectFade, Autoplay } from "swiper/modules";
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 const Hero = () => {
   return (
@@ -53,6 +54,9 @@ const Hero = () => {
           </SwiperSlide>
         );
       })}
+      <div className="max-w-xl mx-auto px-60 -mt-10">
+        <MdKeyboardDoubleArrowDown size={50} />
+      </div>
     </Swiper>
   );
 };

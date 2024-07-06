@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/MAHMUD-DEMILADE-AKINBAMI-cv.pdf";
+import resume from "../assets/resume.pdf";
 
 const AboutMe = () => {
   return (

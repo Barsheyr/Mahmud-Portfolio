@@ -11,11 +11,11 @@ import kiwistyle1 from "./assets/style-1.png";
 import kiwistyle2 from "./assets/style-2.png";
 import kiwistyle3 from "./assets/style-3.png";
 import kiwistyle4 from "./assets/style-4.png";
-import projectTitle from "./assets/Project-Title.png";
+// import projectTitle from "./assets/Project-Title.png";
 import projectOverview from "./assets/Project-Overview.jpg";
 import aerstyleGuide from "./assets/AER-Style-Guide.png";
 import designProcess from "./assets/Design-Process.png";
-import goalProblem from "./assets/Goal-and-Problem.png";
+// import goalProblem from "./assets/Goal-and-Problem.png";
 import userResearch from "./assets/User-Research.png";
 import userPersona from "./assets/User-Persona.png";
 import userPersona2 from "./assets/User-Persona-2.png";
@@ -23,13 +23,32 @@ import empathyMap from "./assets/Empathy-Mapping.png";
 import hero1 from "./assets/mahmudui.jpg";
 // import hero2 from "./assets/mahmudui6.jpg";
 import hero3 from "./assets/mahmudui3.jpg";
-// real Project
-import project1a from "./assets/Project-1.png";
-import project1b from "./assets/Project-1b.jpg";
 import project1new from "./assets/project1-new.png";
 import project1old from "./assets/project1-old.jpg";
 import project1c from "./assets/Project-1c.jpg";
 import project1cover from "./assets/Project1-coverpage.jpg";
+import aertitle from "./assets/Aer-Title.png";
+import aerthree from "./assets/aerthree.png";
+import aerfour from "./assets/aerfour.png";
+import aerfive from "./assets/aerfive.png";
+import aersix from "./assets/aersix.png";
+import aerseven from "./assets/aerseven.png";
+import aereight from "./assets/aereight.png";
+import aernine from "./assets/aernine.png";
+import aerten from "./assets/aerten.png";
+import aereleven from "./assets/aereleven.png";
+import aertwelve from "./assets/aertwelve.png";
+import aerthirteen from "./assets/aerthirteen.png";
+import aerfourteen from "./assets/aerfourteen.png";
+import aerfifteen from "./assets/aerfifteen.png";
+import aersixteen from "./assets/aersixteen.png";
+import aerseventeen from "./assets/aerseventeen.png";
+import aereighteen from "./assets/aereighteen.png";
+import aerenineteen from "./assets/aernineteen.png";
+import aertwenty from "./assets/aertwenty.png";
+import aertwentyone from "./assets/aertwentyone.png";
+import aertwentytwo from "./assets/aertwentytwo.png";
+import aertwentythree from "./assets/aertwentythree.png";
 
 export const herosliders = [
   {
@@ -46,26 +65,8 @@ export const workDatas = [
   {
     id: 1,
     img: project1cover,
-    image: project1a,
-    image2: project1b,
-    title: "Invoive generator ",
-    text: "Invoice generator website redesign",
-    header: "Kwinkinvoice",
-    description:
-      "lorem ipsum dolor sit amet, consectet lorem ipsum dolor lorem ipsum dolor",
-
-    problemstatement:
-      "KwikInvoice is an invoice generating web application that has been in use for a while, but its overall interface design is basic and less user friendly, leading to low user engagement and difficulties in navigating the platform. ",
-
-    projectoverview:
-      "I did a collaboration work with a group of developers and designers at the Dev and Design Bootcamp to redesign a website to give it a better user experience. ",
-
-    projectgoals:
-      "Our goal is to improve the user experience, increase user engagement, and make it easier for users to customize their invoices. The new design will also focus on improving the visual hierarchy and simplifying the user flow, making it easier for users to navigate the platform.",
-
-    neededDesign:
-      "The website was initially built with a website builder which made it hard to customizeThe visuals were not consistent.",
-
+    // image: project1a,
+    // image2: project1b,
     projectOld: project1old,
     projectNew: project1new,
     projectAudit: project1c,
@@ -81,19 +82,30 @@ export const workDatas = [
   {
     id: 2,
     img: mahmudproject2,
-    image: projectTitle,
-    image2: goalProblem,
-    image3: projectOverview,
-    title: "AER",
-    text: "Self driving electric ride hailing service",
-    header: "AER",
-    description:
-      "lorem ipsum dolor sit amet, consectet lorem ipsum dolor lorem ipsum dolor",
-    problemstatement:
-      "Lorem ipsum dolor sit amet, consectet lore lorem ipsum dolor lorem ipsum dlon",
-    conclusion:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi pedita hic nostru quaerat ipsum ratione similique exercitationem animi delectus ipsa temporibus. Atque quos nesciunt quaerat illo dignissimos.",
-    style1: aerstyleGuide,
+    image1: aertitle,
+    image2: projectOverview,
+    image3: aerthree,
+    image4: aerfour,
+    image5: aerfive,
+    image6: aersix,
+    image7: aerseven,
+    image8: aereight,
+    image9: aernine,
+    image10: aerten,
+    image11: aereleven,
+    image12: aertwelve,
+    image13: aerthirteen,
+    image14: aerfourteen,
+    image14: aerfourteen,
+    image15: aerfifteen,
+    image16: aersixteen,
+    image17: aerseventeen,
+    image18: aereighteen,
+    image19: aerenineteen,
+    image20: aertwenty,
+    image21: aertwentyone,
+    image22: aertwentytwo,
+    image23: aertwentythree,
     style2: designProcess,
     style3: kiwistyle3,
     style4: kiwistyle4,
@@ -101,34 +113,6 @@ export const workDatas = [
     design2: userPersona2,
     design3: userResearch,
     design4: empathyMap,
-  },
-  {
-    id: 3,
-    img: mahmudproject3,
-    image: kiwi1,
-    title: "Conversion",
-    text: "Replication of Conversion. A Saas website",
-    header: "AER",
-    description:
-      "lorem ipsum dolor sit amet, consectet lorem ipsum dolor lorem ipsum dolor",
-    problemstatement:
-      "Lorem ipsum dolor sit amet, consectet lore lorem ipsum dolor lorem ipsum dlon",
-    conclusion:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi suntminus, quia aspernatur velit tempora totam deserunt neque expedita repellatdignissimos.",
-  },
-  {
-    id: 4,
-    img: mahmudproject4,
-    image: kiwi2,
-    title: "ARC",
-    text: "Replication of ARC. Empowering start-ups with a great banking experience",
-    header: "AER",
-    description:
-      "lorem ipsum dolor sit amet, consectet lorem ipsum dolor lorem ipsum dolor",
-    problemstatement:
-      "Lorem ipsum dolor sit amet, consectet lore lorem ipsum dolor lorem ipsum dlon",
-    conclusion:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi suntminus, quia aspernatur velit t ratione similique exercitationem animi delectus ipsa temporibus. Atque quos nesciunt quaerat illo dignissimos.",
   },
 ];
 
