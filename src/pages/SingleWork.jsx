@@ -16,9 +16,6 @@ const SingleWork = () => {
   });
 
   const {
-    image,
-    projecttitle,
-    title,
     image1,
     image2,
     image3,
@@ -42,21 +39,7 @@ const SingleWork = () => {
     image21,
     image22,
     image23,
-    problemstatement,
-    projectoverview,
-    projectgoals,
-    neededDesign,
-    projectOld,
-    projectNew,
-    projectAudit,
-    conclusion,
-    role1,
-    role2,
-    style1,
-    style2,
-    style3,
-    style4,
-    projectTitle,
+    url,
   } = workData;
 
   return (
@@ -87,6 +70,15 @@ const SingleWork = () => {
           <img src={image21} alt="" />
           <img src={image22} alt="" />
           <img src={image23} alt="" />
+        </div>
+
+        <div className="bg-black p-20 space-y-10 text-center">
+          <h1 className="text-5xl text-white"> Thank you for reading </h1>
+          <div>
+            <a href={url} className="text-white">
+              Click to the website
+            </a>
+          </div>
         </div>
       </div>
 

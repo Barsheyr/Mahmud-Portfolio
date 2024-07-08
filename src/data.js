@@ -49,6 +49,14 @@ import aertwenty from "./assets/aertwenty.png";
 import aertwentyone from "./assets/aertwentyone.png";
 import aertwentytwo from "./assets/aertwentytwo.png";
 import aertwentythree from "./assets/aertwentythree.png";
+import invoicepicone from "./assets/invoicepicone.svg";
+import invoicepictwo from "./assets/invoicepictwo.png";
+import invoicepicthree from "./assets/invoicepicthree.png";
+import invoicepicfour from "./assets/invoicepicfour.png";
+import invoicepicfive from "./assets/invoicepicfive.png";
+import invoicepicsix from "./assets/invoicepicsix.png";
+import invoicepicseven from "./assets/invoicepicseven.png";
+import invoicepiceight from "./assets/invoicepiceight.png";
 
 export const herosliders = [
   {
@@ -65,19 +73,14 @@ export const workDatas = [
   {
     id: 1,
     img: project1cover,
-    // image: project1a,
-    // image2: project1b,
-    projectOld: project1old,
-    projectNew: project1new,
-    projectAudit: project1c,
-    role1: "UI/ UX Design",
-    role2: "User Research",
-    style1: kiwistyle1,
-    style2: kiwistyle2,
-    style3: kiwistyle3,
-    style4: kiwistyle4,
-    conclusion:
-      "The website redesign for Kwikinvoice was a success, meeting and exceeding the objectives set at the beginning of the project. The new design helped establish the company as a trusted and reputable brand in all industry, while also improving the user experience.",
+    image1: invoicepicone,
+    image2: invoicepictwo,
+    image3: invoicepicthree,
+    image4: invoicepicfour,
+    image5: invoicepicfive,
+    image6: invoicepicsix,
+    image7: invoicepicseven,
+    url: "//www.kwikinvoice.com",
   },
   {
     id: 2,
