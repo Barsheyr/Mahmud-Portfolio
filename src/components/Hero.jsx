@@ -51,12 +51,14 @@ const Hero = () => {
                 </div>
               </div>
             </section>
+
+            <div className="flex flex-col items-center">
+              {/* <div>g</div> */}
+              <MdKeyboardDoubleArrowDown size={50} />
+            </div>
           </SwiperSlide>
         );
       })}
-      <div className="max-w-xl mx-auto px-60 -mt-10">
-        <MdKeyboardDoubleArrowDown size={50} />
-      </div>
     </Swiper>
   );
 };

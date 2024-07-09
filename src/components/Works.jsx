@@ -15,7 +15,7 @@ const Works = () => {
         // data-aos-offset="400"
         // data-aos-delay="100"
       >
-        Work I am proud of
+        My Works
       </h1>
       <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-20">
         {/* <div className="flex flex-row flex-wrap items-center justify-between mt-10"> */}
